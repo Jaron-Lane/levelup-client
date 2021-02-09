@@ -5,7 +5,7 @@ export const GameList = (props) => {
     const { games, getGames } = useContext(GameContext)
 
     useEffect(() => {
-        getGames())
+        getGames()
     }, [])
 
     return (
