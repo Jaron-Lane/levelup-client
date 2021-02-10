@@ -1,0 +1,11 @@
+.games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.game {
+    border: 2px solid grey;
+    border-radius: 13px;
+    padding: 2rem;
+}
